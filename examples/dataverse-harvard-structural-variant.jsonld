@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "@id": "https://doi.org/10.7910/DVN/O4CV1E",
+  "schema:identifier": "https://doi.org/10.7910/DVN/O4CV1E",
+  "schema:name": "Processed Structural Variant–Gene–GWAS Overlap Dataset for Cancer Risk Loci",
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:givenName": "Koushik",
+        "schema:familyName": "Chowdhury",
+        "schema:name": "Chowdhury, Koushik"
+      }
+    ]
+  },
+  "schema:author": [
+    {
+      "@type": [
+        "schema:Person"
+      ],
+      "schema:givenName": "Koushik",
+      "schema:familyName": "Chowdhury",
+      "schema:name": "Chowdhury, Koushik"
+    }
+  ],
+  "schema:datePublished": "2026-03-27",
+  "schema:dateModified": "2026-03-31",
+  "schema:version": "2",
+  "schema:description": "This dataset contains processed structural variant (SV) data integrated from gnomAD v4.1 and the Human Pangenome Reference Consortium (HPRC), focusing on cancer risk loci identified through genome-wide association studies (GWAS). The dataset includes filtered SVs, gene coordinate annotations, and genomic interval overlaps linking structural variants to meiosis-related genes and cancer-associated GWAS regions. It provides aggregated results such as SV–gene–GWAS associations, enriched gene hits, and summary tables used in the corresponding study. All files are derived from publicly available resources and were generated through a computational pipeline involving SV filtering, genomic interval intersection, and multi-source data integration. Raw data from gnomAD, HPRC, and the GWAS Catalog are not included due to licensing restrictions. This dataset supports reproducibility of the reported findings and can be used for further analysis of structural variants in cancer genomics. This study uses publicly available, de-identified genomic datasets and does not involve human subjects or require ethical approval. For detailed information about the dataset structure, data sources, and processing methodology, please refer to the README file included in this repository. The code used for data processing and analysis is available from the author upon reasonable request.",
+  "schema:keywords": [
+    "Computer and Information Science",
+    "Medicine, Health and Life Sciences"
+  ],
+  "schema:license": [
+    "http://creativecommons.org/publicdomain/zero/1.0"
+  ],
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Harvard Dataverse",
+    "schema:url": "https://dataverse.harvard.edu"
+  },
+  "schema:publisher": {
+    "@type": [
+      "schema:Organization"
+    ],
+    "schema:name": "Harvard Dataverse"
+  },
+  "schema:provider": [
+    {
+      "@type": [
+        "schema:Organization"
+      ],
+      "schema:name": "Harvard Dataverse"
+    }
+  ],
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "cancer_sv_gwas_dataset_processed.zip",
+      "schema:encodingFormat": [
+        "application/zip"
+      ],
+      "schema:contentSize": 60862600,
+      "schema:description": "For detailed information about the dataset structure, data sources, and processing methodology, please refer to the README file included in this repository.",
+      "schema:contentUrl": "https://dataverse.harvard.edu/api/access/datafile/13632174"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "README.md",
+      "schema:encodingFormat": [
+        "text/markdown"
+      ],
+      "schema:contentSize": 5800,
+      "schema:description": "updated",
+      "schema:contentUrl": "https://dataverse.harvard.edu/api/access/datafile/13639617"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "stag3_verification.zip",
+      "schema:encodingFormat": [
+        "application/zip"
+      ],
+      "schema:contentSize": 76421,
+      "schema:description": "Version 2: STAG3 coordinate correction. Original analysis used wrong coordinates (chr7:99,819,969-99,895,036) due to an Ensembl REST API error. Correct GRCh38 coordinates confirmed from NCBI Gene ID 10734 are chr7:100,177,724-100,219,334. Corrected files added as stag3_verification.zip. All other 31 gene findings, methodology, and results are unchanged.",
+      "schema:contentUrl": "https://dataverse.harvard.edu/api/access/datafile/13639573"
+    }
+  ],
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://doi.org/10.7910/DVN/O4CV1E#metadata",
+    "schema:name": "GeoCodes metadata record for: Processed Structural Variant–Gene–GWAS Overlap Dataset for Cancer Risk Loci",
+    "schema:about": {
+      "@id": "https://doi.org/10.7910/DVN/O4CV1E"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Harvard Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}

@@ -1,0 +1,2082 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "@id": "https://doi.org/10.17026/DANS-X2M-UG9S",
+  "schema:identifier": "https://doi.org/10.17026/DANS-X2M-UG9S",
+  "schema:name": "External and Internal Spatial Attention",
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:affiliation": {
+          "@type": [
+            "schema:Organization"
+          ],
+          "schema:name": "University of Twente"
+        },
+        "schema:sameAs": [
+          "https://orcid.org/0000-0003-3658-0345"
+        ],
+        "@id": "https://orcid.org/0000-0003-3658-0345",
+        "schema:identifier": "https://orcid.org/0000-0003-3658-0345",
+        "schema:name": "RHJ van der Lubbe"
+      }
+    ]
+  },
+  "schema:author": [
+    {
+      "@type": [
+        "schema:Person"
+      ],
+      "schema:affiliation": {
+        "@type": [
+          "schema:Organization"
+        ],
+        "schema:name": "University of Twente"
+      },
+      "schema:sameAs": [
+        "https://orcid.org/0000-0003-3658-0345"
+      ],
+      "@id": "https://orcid.org/0000-0003-3658-0345",
+      "schema:identifier": "https://orcid.org/0000-0003-3658-0345",
+      "schema:name": "RHJ van der Lubbe"
+    }
+  ],
+  "schema:datePublished": "2021-08-01",
+  "schema:dateModified": "2021-08-01",
+  "schema:version": "2",
+  "schema:description": "These data are related to a study that will be published in Frontiers in Cognition, in 2023 in a special issue related to attention.Van der Lubbe RHJ, Panek B, Jahangier I and Asanowicz D (2023) Lateralized connectivity in the alpha band between parietal and occipital sources when spatial attention is externally and internally directed. Front. Cognit. 2:1145854.doi: 10.3389/fcogn.2023.1145854With pre- and post-cues we examined whether effects on lateralized brain activity in the alpha and theta band is comparable when visual information is presented externally, or when it has to be retrieved from visual memory.\nSelection of visual information from the outside or the inner world\nDate Submitted: 2023-02-28",
+  "schema:keywords": [
+    "Social Sciences",
+    "attention and short-term memory"
+  ],
+  "schema:license": [
+    "http://creativecommons.org/licenses/by/4.0"
+  ],
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "DANS Data Station Social Sciences and Humanities",
+    "schema:url": "https://ssh.datastations.nl"
+  },
+  "schema:publisher": {
+    "@type": [
+      "schema:Organization"
+    ],
+    "schema:name": "DANS Data Station Social Sciences and Humanities"
+  },
+  "schema:provider": [
+    {
+      "@type": [
+        "schema:Organization"
+      ],
+      "schema:name": "DANS Data Station Social Sciences and Humanities"
+    }
+  ],
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "10_M_R_24_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 608140000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220197"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "10_M_R_24_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13583,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220218"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "10_M_R_24_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49261,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220303"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 536291600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220181"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13583,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220294"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49457,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220228"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 840294000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220221"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13587,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220163"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "11_M_R_26_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49883,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220219"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 592108400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220270"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16005,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220146"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49227,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220246"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 920296000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220285"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13587,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220278"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "12_F_R_24_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50246,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220269"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 658751600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220250"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13583,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220165"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50758,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220236"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 844651600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220167"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14798,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220193"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_26_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220183"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_29_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 556930400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220225"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_29_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14103,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220249"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "13_F_R_29_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49045,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220153"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "14_F_R_29_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 883126400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220191"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "14_F_R_29_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14107,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220296"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "14_F_R_29_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49443,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220206"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 572244400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220216"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13583,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220273"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49102,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220178"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 809822000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220252"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14798,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220272"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "15_F_R_17_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49408,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220151"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 627738800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220298"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16005,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220152"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49012,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220248"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 958666800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220226"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13587,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220204"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "16_F_R_17_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48508,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220295"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 622694800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220209"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14794,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220230"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48068,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220302"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 825968000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220288"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16009,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220243"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "17_F_R_18_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 52467,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220217"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 642668000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220189"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16005,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220220"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48870,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220305"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 1038840400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220277"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16009,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220212"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "18_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49401,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220299"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 610157600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220265"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19638,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220271"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48911,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220175"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 870958400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220283"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220308"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "19_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49472,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220192"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 561340000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220293"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 16005,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220261"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48998,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220187"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 868259600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220309"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 18431,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220214"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "20_M_R_24_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49369,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220300"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 586014000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220239"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14794,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220245"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49184,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220144"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 860308800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220160"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 18431,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220257"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "21_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49308,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220290"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 582176400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220164"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14794,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220162"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48885,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220231"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 848203200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220284"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13587,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220276"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "22_F_R_18_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49314,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220227"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 628009200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220179"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 20849,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220280"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50050,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220213"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 846887600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220173"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220232"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "23_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49333,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220304"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 594365200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220314"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19638,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220282"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48790,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220215"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 909448800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220185"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 18431,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220170"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "24_F_R_18_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49615,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220260"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 631051200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220263"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 17216,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220184"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49036,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220256"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 884774800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220199"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220202"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "25_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49488,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220172"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 626553200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220169"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 18427,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220242"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49056,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220188"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 1026584000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220244"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220267"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "26_F_R_21_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50253,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220196"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 611910000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220198"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 18427,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220247"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49055,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220145"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 871192400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220306"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 22064,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220176"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "27_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 53049,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220210"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 596320400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220310"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19638,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220180"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49005,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220251"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 854833200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220208"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220171"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "28_F_R_19_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49380,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220301"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 621186800,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220279"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19638,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220281"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49068,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220211"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 851921200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220262"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 19642,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220266"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "29_F_R_25_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49402,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220275"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 618155200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220235"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14101,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220238"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49068,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220313"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 833118000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220201"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 15316,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220234"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "3_F_R_23_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49289,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220224"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 589784000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220259"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14792,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220200"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49214,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220274"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 959114000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220143"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13585,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220311"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "4_M_R_22_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50536,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220194"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 591775600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220258"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13581,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220254"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49100,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220286"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_Retro.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 881202400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220233"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_Retro.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13585,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220255"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "5_F_R_19_Retro.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49376,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220182"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 600085200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220292"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13581,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220312"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49185,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220223"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 862919200,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220253"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14796,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220174"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "6_M_R_27_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49277,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220207"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 599482000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220168"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13581,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220177"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 48470,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220289"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 1164914400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220307"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13585,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220297"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "7_F_R_29_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50624,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220229"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 756834000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220150"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13581,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220237"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 50379,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220166"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 945854000,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220205"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 13585,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220190"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "8_F_R_55_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49225,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220264"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_PRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 628877600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220222"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_PRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14792,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220287"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_PRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49090,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220195"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 909828400,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220161"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14796,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220291"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_20_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49181,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220203"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_24_RETRO.eeg",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 841895600,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220268"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_24_RETRO.vhdr",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 14796,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220186"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "9_M_R_24_RETRO.vmrk",
+      "schema:encodingFormat": [
+        "application/octet-stream"
+      ],
+      "schema:contentSize": 49836,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220241"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "Codes.docx.pdf",
+      "schema:encodingFormat": [
+        "application/pdf"
+      ],
+      "schema:contentSize": 429793,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220323"
+    },
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "schema:name": "easy-migration.zip",
+      "schema:encodingFormat": [
+        "application/zip"
+      ],
+      "schema:contentSize": 78815,
+      "schema:description": "",
+      "schema:contentUrl": "https://ssh.datastations.nl/api/access/datafile/220322"
+    }
+  ],
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://doi.org/10.17026/DANS-X2M-UG9S#metadata",
+    "schema:name": "GeoCodes metadata record for: External and Internal Spatial Attention",
+    "schema:about": {
+      "@id": "https://doi.org/10.17026/DANS-X2M-UG9S"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from DANS Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}
