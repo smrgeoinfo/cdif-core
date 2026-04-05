@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "schema:name": "Heart Failure Prediction Dataset",
+  "schema:description": "### Similar Datasets\n\n- Hepatitis C Dataset: [LINK](https://www.kaggle.com/fedesoriano/hepatitis-c-dataset)\n- Body Fat Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/body-fat-prediction-dataset)\n- Cirrhosis Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/cirrhosis-prediction-dataset)\n- Stroke Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)\n- Stellar Classification Dataset - SDSS17: [LINK](https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17)\n- Wind Speed Prediction Dataset: [LINK](https://www.kaggle.com/datasets/fedesoriano/wind-speed-prediction-dataset)\n- Spanish Wine Quality Dataset: [LINK](https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset)\n\n\n### Context\n\nCardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.\n\nPeople with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.\n\n\n### Attribute Information\n\n1. Age: age of the patient [years]\n1. Sex: sex of the patient [M: Male, F: Female]\n1. ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]\n1. RestingBP: resting blood pressure [mm Hg]\n1. Cholesterol: serum cholesterol [mm/dl]\n1. FastingBS: fasting blood sugar [1: if FastingBS &gt; 120 mg/dl, 0: otherwise]\n1. RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of &gt; 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]\n1. MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]\n1. ExerciseAngina: exercise-induced angina [Y: Yes, N: No]\n1. Oldpeak: oldpeak = ST [Numeric value measured in depression]\n1. ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]\n1. HeartDisease: output class [1: heart disease, 0: Normal]\n\n\n\n### Source\n\nThis dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. The five datasets used for its curation are:\n\n- Cleveland: 303 observations\n- Hungarian: 294 observations\n- Switzerland: 123 observations\n- Long Beach VA: 200 observations\n- Stalog (Heart) Data Set: 270 observations\n\nTotal: 1190 observations\nDuplicated: 272 observations \n\n`Final dataset: 918 observations`\n\nEvery dataset used can be found under the Index of heart disease datasets from UCI Machine Learning Repository on the following link: [https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/)\n\n\n### Citation\n\n&gt; fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.\n\n\n### Acknowledgements\n\nCreators:\n\n1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.\n1. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.\n1. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.\n1. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.\n\nDonor:\nDavid W. Aha (aha '@' ics.uci.edu) (714) 856-8779\n",
+  "schema:url": "https://www.kaggle.com/fedesoriano/heart-failure-prediction",
+  "schema:version": 1,
+  "schema:keywords": [
+    "task, classification",
+    "subject, health and fitness, health",
+    "subject, health and fitness, health, health conditions",
+    "subject, health and fitness, health, health conditions, heart conditions",
+    "subject, health and fitness, health, healthcare"
+  ],
+  "schema:license": [
+    {
+      "@type": [
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Database: Open Database, Contents: © Original Authors",
+      "schema:url": "http://opendatacommons.org/licenses/odbl/1.0/"
+    }
+  ],
+  "schema:identifier": "1582403",
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Kaggle",
+    "schema:url": "https://www.kaggle.com"
+  },
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:name": "fedesoriano",
+        "schema:url": "https://www.kaggle.com/fedesoriano",
+        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/6402661-kg.jpg"
+      }
+    ]
+  },
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "requiresSubscription": true,
+      "schema:encodingFormat": [
+        "zip"
+      ],
+      "schema:fileFormat": "zip",
+      "schema:contentUrl": "https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/download?datasetVersionNumber=1",
+      "schema:contentSize": "8762 bytes"
+    }
+  ],
+  "commentCount": 31,
+  "schema:dateModified": "2021-09-10T18:11:57.517Z",
+  "discussionUrl": "https://www.kaggle.com/fedesoriano/heart-failure-prediction/discussion",
+  "schema:alternateName": "11 clinical features for predicting heart disease events.",
+  "schema:isAccessibleForFree": true,
+  "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/1582403/2603715/fc66626bcce9dec0f401f3f69c2ab2d1/dataset-card.jpg?t=2021-09-10-18-13-42",
+  "interactionStatistic": [
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 31
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 263807
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 1481702
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 3152
+    }
+  ],
+  "@id": "https://www.kaggle.com/fedesoriano/heart-failure-prediction",
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://www.kaggle.com/fedesoriano/heart-failure-prediction#metadata",
+    "schema:name": "GeoCodes metadata record for: Heart Failure Prediction Dataset",
+    "schema:about": {
+      "@id": "https://www.kaggle.com/fedesoriano/heart-failure-prediction"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Kaggle by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; @id set from schema:url; schema:identifier unwrapped from array; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}

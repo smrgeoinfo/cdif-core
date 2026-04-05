@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "schema:name": "Climate Change: Earth Surface Temperature Data",
+  "schema:description": "Some say climate change is the biggest threat of our age while others say it’s a myth based on dodgy science. We are turning some of the data over to you so you can form your own view.\n\n[![us-climate-change](https://www.kaggle.io/svf/195335/062aeda1473b00ec4b8505d5133dfc2c/__results___files/figure-html/unnamed-chunk-4-1.png)](https://www.kaggle.com/jagelves/d/berkeleyearth/climate-change-earth-surface-temperature-data/continental-us-climate-change-1850-2013)\n\nEven more than with other data sets that Kaggle has featured, there’s a huge amount of data cleaning and preparation that goes into putting together a long-time study of climate trends. Early data was collected by technicians using mercury thermometers, where any variation in the visit time impacted measurements. In the 1940s, the construction of airports caused many weather stations to be moved. In the 1980s, there was a move to electronic thermometers that are said to have a cooling bias.\n\nGiven this complexity, there are a range of organizations that collate climate trends data. The three most cited land and ocean temperature data sets are NOAA’s MLOST, NASA’s GISTEMP and the UK’s HadCrut. \n\nWe have repackaged the data from a newer compilation put together by the [Berkeley Earth][1], which is affiliated with Lawrence Berkeley National Laboratory. The Berkeley Earth Surface Temperature Study combines 1.6 billion temperature reports from 16 pre-existing archives. It is nicely packaged and allows for slicing into interesting subsets (for example by country). They publish the source data and the code for the transformations they applied. They also use methods that allow weather observations from shorter time series to be included, meaning fewer observations need to be thrown away. \n\nIn this dataset, we have include several files:\n\nGlobal Land and Ocean-and-Land Temperatures (**GlobalTemperatures.csv**):  \n \n - Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures\n - LandAverageTemperature: global average land temperature in celsius  \n - LandAverageTemperatureUncertainty: the 95% confidence interval around the average  \n - LandMaxTemperature: global average maximum land temperature in celsius  \n - LandMaxTemperatureUncertainty: the 95% confidence interval around the maximum land temperature  \n - LandMinTemperature:  global average minimum land temperature in celsius  \n - LandMinTemperatureUncertainty: the 95% confidence interval around the minimum land temperature  \n - LandAndOceanAverageTemperature: global average land and ocean temperature in celsius  \n - LandAndOceanAverageTemperatureUncertainty: the 95% confidence interval around the global average land and ocean temperature  \n\nOther files include:  \n\n - Global Average Land Temperature by Country (**GlobalLandTemperaturesByCountry.csv**)  \n - Global Average Land Temperature by State (**GlobalLandTemperaturesByState.csv**)  \n - Global Land Temperatures By Major City (**GlobalLandTemperaturesByMajorCity.csv**)  \n - Global Land Temperatures By City (**GlobalLandTemperaturesByCity.csv**)\n\nThe raw data comes from the [Berkeley Earth data page][2].\n\n\n  [1]: http://berkeleyearth.org/about/\n  [2]: http://berkeleyearth.org/data/",
+  "schema:url": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data",
+  "schema:version": 2,
+  "schema:keywords": [
+    "subject, people and society, business",
+    "subject, people and society, news",
+    "subject, earth and nature, earth science, atmospheric science",
+    "subject, earth and nature, environment"
+  ],
+  "schema:license": [
+    {
+      "@type": [
+        "schema:CreativeWork"
+      ],
+      "schema:name": "CC BY-NC-SA 4.0",
+      "schema:url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "schema:identifier": "29",
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Kaggle",
+    "schema:url": "https://www.kaggle.com"
+  },
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Organization"
+        ],
+        "schema:name": "Berkeley Earth",
+        "schema:url": "https://www.kaggle.com/organizations/berkeleyearth",
+        "image": "https://storage.googleapis.com/kaggle-organizations/667/thumbnail.png%3Fr=735"
+      }
+    ]
+  },
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "requiresSubscription": true,
+      "schema:encodingFormat": [
+        "zip"
+      ],
+      "schema:fileFormat": "zip",
+      "schema:contentUrl": "https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/download?datasetVersionNumber=2",
+      "schema:contentSize": "88843537 bytes"
+    }
+  ],
+  "commentCount": 9,
+  "schema:dateModified": "2017-05-01T17:29:10.78Z",
+  "discussionUrl": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data/discussion",
+  "schema:alternateName": "Exploring global temperatures since 1750",
+  "schema:isAccessibleForFree": true,
+  "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/29/33/default-backgrounds/dataset-card.jpg",
+  "interactionStatistic": [
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 9
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 180359
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 1237908
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 2445
+    }
+  ],
+  "@id": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data",
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#metadata",
+    "schema:name": "GeoCodes metadata record for: Climate Change: Earth Surface Temperature Data",
+    "schema:about": {
+      "@id": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Kaggle by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; @id set from schema:url; schema:identifier unwrapped from array; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}

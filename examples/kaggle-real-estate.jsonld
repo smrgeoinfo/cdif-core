@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "schema:name": "USA Real Estate Dataset",
+  "schema:description": "## Context\n\nThis dataset contains Real Estate listings in the US broken by State and zip code.\n\n## Download\n\nkaggle API Command\n```\n!kaggle datasets download -d ahmedshahriarsakib/usa-real-estate-dataset\n```\n\n### Content\n\nThe dataset has 1 CSV file with 10 columns -\n\n1. realtor-data.csv (2,226,382 entries)\n  - brokered by (categorically encoded agency/broker)\n  - status (Housing status - a. ready for sale or b. ready to build) \n  - price (Housing price, it is either the current listing price or recently sold price if the house is sold recently)\n  - bed (# of beds)\n  - bath (# of bathrooms)\n  - acre_lot (Property / Land size in acres)\n  - street (categorically encoded street address)\n  - city (city name)\n  - state (state name)\n  - zip_code (postal code of the area)\n  - house_size (house area/size/living space  in square feet)\n  - prev_sold_date (Previously sold date)\n\n\nNB: \n1. `brokered by` and `street` addresses were categorically encoded due to data privacy policy \n2. `acre_lot` means the total land area, and ` house_size` denotes the living space/building area\n\n## Acknowledgements\n\nData was collected from -\n- [https://www.realtor.com/](https://www.realtor.com/) - A real estate listing website operated by the News Corp subsidiary Move, Inc. and based in Santa Clara, California. It is the second most visited real estate listing website in the United States as of 2024, with over 100 million monthly active users. \n\n\n## Cover Image\n\nImage by <a href=\"https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3261160\">Mohamed Hassan</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3261160\">Pixabay</a>\n\n## Disclaimer\n\nThe data and information in the data set provided here are intended to use for educational purposes only. I do not own any data, and all rights are reserved to the respective owners.\n\n\n## Inspiration\n\n- Can we predict housing prices based on the features?\n- How are housing price and location attributes correlated?\n- What is the overall picture of the USA housing prices w.r.t. locations?\n- Do house attributes (bedroom, bathroom count) strongly correlate with the price? Are there any hidden patterns?",
+  "schema:url": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset",
+  "schema:version": 25,
+  "schema:keywords": [
+    "subject, science and technology, computer science",
+    "data type, tabular",
+    "subject, people and society, business, real estate",
+    "geography and places, north america, united states",
+    "task, regression",
+    "subject, people and society, business, real estate, housing"
+  ],
+  "schema:license": [
+    {
+      "@type": [
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Other (specified in description)",
+      "schema:url": ""
+    }
+  ],
+  "schema:identifier": "3202774",
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Kaggle",
+    "schema:url": "https://www.kaggle.com"
+  },
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:name": "Ahmed Shahriar Sakib",
+        "schema:url": "https://www.kaggle.com/ahmedshahriarsakib",
+        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/4124088-kg.png"
+      }
+    ]
+  },
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "requiresSubscription": true,
+      "schema:encodingFormat": [
+        "zip"
+      ],
+      "schema:fileFormat": "zip",
+      "schema:contentUrl": "https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset/download?datasetVersionNumber=25",
+      "schema:contentSize": "40085115 bytes"
+    }
+  ],
+  "commentCount": 13,
+  "schema:dateModified": "2024-03-30T12:04:31.54Z",
+  "discussionUrl": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset/discussion",
+  "schema:alternateName": "Real Estate listings (2.2M+) in the US broken by State and zip code",
+  "schema:isAccessibleForFree": true,
+  "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/3202774/5562446/234b5e3bb3cd7ad85f432a9a16012376/dataset-card.jpeg?t=2023-04-30-04-35-26",
+  "interactionStatistic": [
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 13
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 38855
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 314276
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 250
+    }
+  ],
+  "@id": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset",
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset#metadata",
+    "schema:name": "GeoCodes metadata record for: USA Real Estate Dataset",
+    "schema:about": {
+      "@id": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Kaggle by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; @id set from schema:url; schema:identifier unwrapped from array; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}

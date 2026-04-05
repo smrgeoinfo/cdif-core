@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "schema:name": "COVID-19 World Vaccination Progress",
+  "schema:description": "### Context\n\nData is collected daily from [**Our World in Data**](https://ourworldindata.org/) GitHub repository for [covid-19](https://github.com/owid/covid-19-data), merged and uploaded. Country level vaccination data is gathered and assembled in one single file. Then, this data file is merged with locations data file to include vaccination sources information. A second file, with manufacturers information, is included.\n\n\n### Content\n\nThe data (country vaccinations) contains the following information:\n* **Country**- this is the  country for which the vaccination information is provided;   \n* **Country ISO Code** - ISO code for the country;   \n* **Date** - date for the data entry; for some of the dates we have only the daily vaccinations, for others, only the (cumulative) total;   \n* **Total number of vaccinations** - this is the absolute number of total immunizations in the country;  \n* **Total number of people vaccinated** - a person, depending on the immunization scheme, will receive one or more (typically 2) vaccines; at a certain moment, the number of vaccination might be larger than the number of people;  \n* **Total number of people fully vaccinated** - this is the number of people that received the entire set of immunization according to the immunization scheme (typically 2); at a certain moment in time, there might be a certain number of people that received one vaccine and another number (smaller) of people that received all vaccines in the scheme;  \n* **Daily vaccinations (raw)** - for a certain data entry, the number of vaccination for that date/country;  \n* **Daily vaccinations** - for a certain data entry, the number of vaccination for that date/country;  \n* **Total vaccinations per hundred** - ratio (in percent) between vaccination number and total population up to the date in the country;  \n* **Total number of people vaccinated per hundred** - ratio (in percent) between population immunized and total population up to the date in the country;  \n* **Total number of people fully vaccinated per hundred** - ratio (in percent) between population fully immunized and total population up to the date in the country;   \n* **Number of vaccinations per day** - number of daily vaccination for that day and country;   \n* **Daily vaccinations per million** -  ratio (in ppm) between vaccination number and total population for the current date in the country;    \n* **Vaccines used in the country** - total number of vaccines used in the country (up to date);    \n* **Source name** - source of the information (national authority, international organization, local organization etc.);   \n* **Source website** - website of the source of information;    \n\n\nThere is a second file added recently (country vaccinations by manufacturer), with the following columns:\n* **Location** - country;  \n* **Date** - date;  \n* **Vaccine** - vaccine type;   \n* **Total number of vaccinations** - total number of vaccinations / current time and vaccine type.\n\n\n### Acknowledgements\n\nI would like to specify that I am only making available **Our World in Data** collected data about vaccinations to Kagglers. My contribution is very small, just daily collection, merge and upload of the updated version, as maintained by **Our World in Data** in their GitHub repository.\n\n### Inspiration\n\nTrack COVID-19 vaccination in the World, answer instantly to your questions:   \n- Which country is using what vaccine?   \n- In which country the vaccination programme is more advanced?   \n- Where are vaccinated more people per day? But in terms of percent from entire population ?\n\nCombine this dataset with [COVID-19 World Testing Progress](https://www.kaggle.com/gpreda/covid19-world-testing-progress) and [COVID-19 Variants Worldwide Evolution](https://www.kaggle.com/gpreda/covid19-variants) to get more insights on the dynamics of the pandemics, as reflected in the interdependence of amount of testing performed, results of sequencing and vaccination campaigns.\n\n",
+  "schema:url": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress",
+  "schema:version": 249,
+  "schema:keywords": [
+    "subject, health and fitness, health",
+    "subject, earth and nature, biology",
+    "subject, people and society, law, government, public safety",
+    "subject, health and fitness, health, public health",
+    "subject, health and fitness, health, health conditions, diseases, covid19"
+  ],
+  "schema:license": [
+    {
+      "@type": [
+        "schema:CreativeWork"
+      ],
+      "schema:name": "CC0: Public Domain",
+      "schema:url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "schema:identifier": "1093816",
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Kaggle",
+    "schema:url": "https://www.kaggle.com"
+  },
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:name": "Gabriel Preda",
+        "schema:url": "https://www.kaggle.com/gpreda",
+        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/769452-kg.jpg"
+      }
+    ]
+  },
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "requiresSubscription": true,
+      "schema:encodingFormat": [
+        "zip"
+      ],
+      "schema:fileFormat": "zip",
+      "schema:contentUrl": "https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress/download?datasetVersionNumber=249",
+      "schema:contentSize": "2034736 bytes"
+    }
+  ],
+  "commentCount": 40,
+  "schema:dateModified": "2022-03-31T07:55:09.033Z",
+  "discussionUrl": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress/discussion",
+  "schema:alternateName": "Daily and Total Vaccination for COVID-19 in the World from Our World in Data",
+  "schema:isAccessibleForFree": true,
+  "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/1093816/1839732/2e3c2d0baa290d07c4439524bf15243a/dataset-card.jpg?t=2021-01-12-17-05-23",
+  "interactionStatistic": [
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 40
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 115634
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 615425
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 2237
+    }
+  ],
+  "@id": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress",
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress#metadata",
+    "schema:name": "GeoCodes metadata record for: COVID-19 World Vaccination Progress",
+    "schema:about": {
+      "@id": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Kaggle by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; @id set from schema:url; schema:identifier unwrapped from array; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}

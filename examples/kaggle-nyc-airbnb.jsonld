@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": [
+    "schema:Dataset"
+  ],
+  "schema:name": "New York City Airbnb Open Data",
+  "schema:description": "###Context\n\nSince 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present more unique, personalized way of experiencing the world. This dataset describes the listing activity and metrics in NYC, NY for 2019.\n\n###Content\n\nThis data file includes all needed information to find out more about hosts, geographical availability, necessary metrics to make predictions and draw conclusions.\n\n###Acknowledgements\n\nThis public dataset is part of Airbnb, and the original source can be found on this [website](http://insideairbnb.com).\n\n###Inspiration\n\n- What can we learn about different hosts and areas?\n- What can we learn from predictions? (ex: locations, prices, reviews, etc)\n- Which hosts are the busiest and why?\n- Is there any noticeable difference of traffic among different areas and what could be the reason for it?",
+  "schema:url": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data",
+  "schema:version": 3,
+  "schema:keywords": [
+    "subject, people and society, business",
+    "subject, science and technology, internet",
+    "subject, people and society, business, travel, hotels and accommodations"
+  ],
+  "schema:license": [
+    {
+      "@type": [
+        "schema:CreativeWork"
+      ],
+      "schema:name": "CC0: Public Domain",
+      "schema:url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "schema:identifier": "268833",
+  "schema:includedInDataCatalog": {
+    "@type": [
+      "schema:DataCatalog"
+    ],
+    "schema:name": "Kaggle",
+    "schema:url": "https://www.kaggle.com"
+  },
+  "schema:creator": {
+    "@list": [
+      {
+        "@type": [
+          "schema:Person"
+        ],
+        "schema:name": "Dgomonov",
+        "schema:url": "https://www.kaggle.com/dgomonov",
+        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/3023930-kg.JPG"
+      }
+    ]
+  },
+  "schema:distribution": [
+    {
+      "@type": [
+        "schema:DataDownload"
+      ],
+      "requiresSubscription": true,
+      "schema:encodingFormat": [
+        "zip"
+      ],
+      "schema:fileFormat": "zip",
+      "schema:contentUrl": "https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/download?datasetVersionNumber=3",
+      "schema:contentSize": "2562692 bytes"
+    }
+  ],
+  "commentCount": 46,
+  "schema:dateModified": "2019-08-12T16:24:45.737Z",
+  "discussionUrl": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/discussion",
+  "schema:alternateName": "Airbnb listings and metrics in NYC, NY, USA (2019)",
+  "schema:isAccessibleForFree": true,
+  "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/268833/559075/cf825b5af1f904cd1ea6404039abc88e/dataset-card.jpg?t=2019-07-18-19-19-53",
+  "interactionStatistic": [
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 46
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 240517
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 1388385
+    },
+    {
+      "@type": [
+        "InteractionCounter"
+      ],
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 3104
+    }
+  ],
+  "@id": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data",
+  "schema:subjectOf": {
+    "@type": [
+      "schema:Dataset"
+    ],
+    "schema:additionalType": [
+      "dcat:CatalogRecord"
+    ],
+    "@id": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data#metadata",
+    "schema:name": "GeoCodes metadata record for: New York City Airbnb Open Data",
+    "schema:about": {
+      "@id": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data"
+    },
+    "dcterms:conformsTo": [
+      {
+        "@id": "https://w3id.org/cdif/core/1.0"
+      }
+    ],
+    "schema:includedInDataCatalog": {
+      "@type": [
+        "schema:DataCatalog"
+      ],
+      "schema:name": "GeoCodes - EarthCube Discovery",
+      "schema:url": "https://geocodes.earthcube.org/"
+    },
+    "schema:description": "Metadata harvested from Kaggle by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; @id set from schema:url; schema:identifier unwrapped from array; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+  }
+}
