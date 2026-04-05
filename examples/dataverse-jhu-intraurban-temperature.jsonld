@@ -107,100 +107,6 @@
       }
     ]
   },
-  "schema:author": [
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Anna A",
-      "schema:familyName": "Scott",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Department of Earth and Planetary Sciences, Johns Hopkins University, Baltimore, MD, USA"
-      },
-      "schema:name": "Scott, Anna A"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Ben",
-      "schema:familyName": "Zaitchik",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Department of Earth and Planetary Sciences, Johns Hopkins University, Baltimore, MD, USA"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0002-0698-0658"
-      ],
-      "@id": "https://orcid.org/0000-0002-0698-0658",
-      "schema:identifier": "https://orcid.org/0000-0002-0698-0658",
-      "schema:name": "Zaitchik, Ben"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Darryn W.",
-      "schema:familyName": "Waugh",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Department of Earth and Planetary Sciences, Johns Hopkins University, Baltimore, MD, USA"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0001-7692-2798"
-      ],
-      "@id": "https://orcid.org/0000-0001-7692-2798",
-      "schema:identifier": "https://orcid.org/0000-0001-7692-2798",
-      "schema:name": "Waugh, Darryn W."
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Katie",
-      "schema:familyName": "O’Meara",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Maryland Institute College of Art, Baltimore, MD, USA"
-      },
-      "schema:name": "O’Meara, Katie"
-    },
-    {
-      "@type": [
-        "schema:Organization"
-      ],
-      "schema:parentOrganization": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Maryland Institute College of Art, Baltimore, MD, USA"
-      },
-      "schema:name": "Hickman, Clara"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Sophie",
-      "schema:familyName": "Stoerkel",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Maryland Institute College of Art, Baltimore, MD, USA"
-      },
-      "schema:name": "Stoerkel, Sophie"
-    }
-  ],
   "schema:datePublished": "2016-07-20",
   "schema:dateModified": "2023-06-08",
   "schema:version": "2",
@@ -322,6 +228,6 @@
       "schema:name": "GeoCodes - EarthCube Discovery",
       "schema:url": "https://geocodes.earthcube.org/"
     },
-    "schema:description": "Metadata harvested from JHU Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+    "schema:description": "Metadata harvested from JHU Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays). Removed redundant schema:author (identical to schema:creator); CDIF recommends schema:creator."
   }
 }

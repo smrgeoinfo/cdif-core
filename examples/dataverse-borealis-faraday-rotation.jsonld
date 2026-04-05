@@ -132,125 +132,6 @@
       }
     ]
   },
-  "schema:author": [
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Vishnu Narayanan",
-      "schema:familyName": "Suresh",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Université de Sherbrooke"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0003-1152-6043"
-      ],
-      "@id": "https://orcid.org/0000-0003-1152-6043",
-      "schema:identifier": "https://orcid.org/0000-0003-1152-6043",
-      "schema:name": "Suresh, Vishnu Narayanan"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Talia J.",
-      "schema:familyName": "Martz-Oberlander",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "McGill University"
-      },
-      "schema:name": "Martz-Oberlander, Talia J."
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Sujatha",
-      "schema:familyName": "Vijayakrishnan",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "McGill University"
-      },
-      "schema:name": "Vijayakrishnan, Sujatha"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Loren N.",
-      "schema:familyName": "Pfeiffer",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Princeton University"
-      },
-      "schema:name": "Pfeiffer, Loren N."
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Ken. W",
-      "schema:familyName": "West",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Princeton University"
-      },
-      "schema:name": "West, Ken. W"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Guillaume",
-      "schema:familyName": "Gervais",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "McGill University"
-      },
-      "schema:name": "Gervais, Guillaume"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Bertrand",
-      "schema:familyName": "Reulet",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "Université de Sherbrooke"
-      },
-      "schema:name": "Reulet, Bertrand"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Thomas",
-      "schema:familyName": "Szkopek",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "McGill University"
-      },
-      "schema:name": "Szkopek, Thomas"
-    }
-  ],
   "schema:datePublished": "2026-04-04",
   "schema:dateModified": "2026-04-04",
   "schema:version": "1",
@@ -512,6 +393,6 @@
       "schema:name": "GeoCodes - EarthCube Discovery",
       "schema:url": "https://geocodes.earthcube.org/"
     },
-    "schema:description": "Metadata harvested from Borealis Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+    "schema:description": "Metadata harvested from Borealis Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays). Removed redundant schema:author (identical to schema:creator); CDIF recommends schema:creator."
   }
 }

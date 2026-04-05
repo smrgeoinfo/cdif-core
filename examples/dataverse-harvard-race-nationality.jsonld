@@ -91,84 +91,6 @@
       }
     ]
   },
-  "schema:author": [
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Volha",
-      "schema:familyName": "Charnysh",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "MIT"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0002-5089-3818"
-      ],
-      "@id": "https://orcid.org/0000-0002-5089-3818",
-      "schema:identifier": "https://orcid.org/0000-0002-5089-3818",
-      "schema:name": "Charnysh, Volha"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Jared",
-      "schema:familyName": "Kalow",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "MIT"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0009-0002-5910-8158"
-      ],
-      "@id": "https://orcid.org/0009-0002-5910-8158",
-      "schema:identifier": "https://orcid.org/0009-0002-5910-8158",
-      "schema:name": "Jared Kalow"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Evan",
-      "schema:familyName": "Lieberman",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "MIT"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0001-9242-5687"
-      ],
-      "@id": "https://orcid.org/0000-0001-9242-5687",
-      "schema:identifier": "https://orcid.org/0000-0001-9242-5687",
-      "schema:name": "Lieberman, Evan"
-    },
-    {
-      "@type": [
-        "schema:Person"
-      ],
-      "schema:givenName": "Erin",
-      "schema:familyName": "Walk",
-      "schema:affiliation": {
-        "@type": [
-          "schema:Organization"
-        ],
-        "schema:name": "University of Pennsylvania"
-      },
-      "schema:sameAs": [
-        "https://orcid.org/0000-0002-8305-3161"
-      ],
-      "@id": "https://orcid.org/0000-0002-8305-3161",
-      "schema:identifier": "https://orcid.org/0000-0002-8305-3161",
-      "schema:name": "Walk, Erin"
-    }
-  ],
   "schema:datePublished": "2026-04-04",
   "schema:dateModified": "2026-04-04",
   "schema:version": "1",
@@ -336,6 +258,6 @@
       "schema:name": "GeoCodes - EarthCube Discovery",
       "schema:url": "https://geocodes.earthcube.org/"
     },
-    "schema:description": "Metadata harvested from Harvard Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays)."
+    "schema:description": "Metadata harvested from Harvard Dataverse by the EarthCube GeoCodes catalog using Gleaner. Converted to CDIF core profile: Property names prefixed with schema: namespace; @context set to CDIF prefix declarations (extra prefixes preserved); @type values normalized to arrays with schema: prefix; schema:license wrapped in array; Distributions normalized; schema:creator wrapped in @list; Agent objects fixed (Person name synthesis, sameAs arrays). Removed redundant schema:author (identical to schema:creator); CDIF recommends schema:creator."
   }
 }
