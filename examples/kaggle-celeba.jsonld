@@ -45,7 +45,7 @@
         ],
         "schema:name": "Jessica Li",
         "schema:url": "https://www.kaggle.com/jessicali9530",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1772071-gr.jpg"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1772071-gr.jpg"
       }
     ]
   },
@@ -54,7 +54,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -63,40 +63,40 @@
       "schema:contentSize": "1427750792 bytes"
     }
   ],
-  "commentCount": 10,
+  "schema:commentCount": 10,
   "schema:dateModified": "2018-06-01T20:08:48.043Z",
-  "discussionUrl": "https://www.kaggle.com/jessicali9530/celeba-dataset/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/jessicali9530/celeba-dataset/discussion",
   "schema:alternateName": "Over 200k images of celebrities with 40 binary attribute annotations",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/29561/37680/bc5435321df51422bcfcbcd7340497cb/dataset-card.jpg?t=2018-06-07-00-51-12",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 10
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 10
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 226929
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 226929
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 897525
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 897525
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 1831
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 1831
     }
   ],
   "@id": "https://www.kaggle.com/jessicali9530/celeba-dataset",

@@ -43,7 +43,7 @@
         ],
         "schema:name": "Berkeley Earth",
         "schema:url": "https://www.kaggle.com/organizations/berkeleyearth",
-        "image": "https://storage.googleapis.com/kaggle-organizations/667/thumbnail.png%3Fr=735"
+        "schema:image": "https://storage.googleapis.com/kaggle-organizations/667/thumbnail.png%3Fr=735"
       }
     ]
   },
@@ -52,7 +52,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -61,40 +61,40 @@
       "schema:contentSize": "88843537 bytes"
     }
   ],
-  "commentCount": 9,
+  "schema:commentCount": 9,
   "schema:dateModified": "2017-05-01T17:29:10.78Z",
-  "discussionUrl": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data/discussion",
   "schema:alternateName": "Exploring global temperatures since 1750",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/29/33/default-backgrounds/dataset-card.jpg",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 9
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 9
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 180359
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 180359
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 1237908
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 1237908
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 2445
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 2445
     }
   ],
   "@id": "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data",

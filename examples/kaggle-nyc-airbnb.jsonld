@@ -42,7 +42,7 @@
         ],
         "schema:name": "Dgomonov",
         "schema:url": "https://www.kaggle.com/dgomonov",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/3023930-kg.JPG"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/3023930-kg.JPG"
       }
     ]
   },
@@ -51,7 +51,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -60,40 +60,40 @@
       "schema:contentSize": "2562692 bytes"
     }
   ],
-  "commentCount": 46,
+  "schema:commentCount": 46,
   "schema:dateModified": "2019-08-12T16:24:45.737Z",
-  "discussionUrl": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/discussion",
   "schema:alternateName": "Airbnb listings and metrics in NYC, NY, USA (2019)",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/268833/559075/cf825b5af1f904cd1ea6404039abc88e/dataset-card.jpg?t=2019-07-18-19-19-53",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 46
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 46
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 240517
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 240517
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 1388385
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 1388385
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 3104
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 3104
     }
   ],
   "@id": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data",

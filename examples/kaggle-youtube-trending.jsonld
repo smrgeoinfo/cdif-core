@@ -44,7 +44,7 @@
         ],
         "schema:name": "Mitchell J",
         "schema:url": "https://www.kaggle.com/datasnaek",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1236717-kg.png"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1236717-kg.png"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -62,40 +62,40 @@
       "schema:contentSize": "210575746 bytes"
     }
   ],
-  "commentCount": 48,
+  "schema:commentCount": 48,
   "schema:dateModified": "2019-06-03T00:56:47.177Z",
-  "discussionUrl": "https://www.kaggle.com/datasnaek/youtube-new/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/datasnaek/youtube-new/discussion",
   "schema:alternateName": "Daily statistics for trending YouTube videos",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/4549/9659/61ea143988e2f7db2ee9377cfdb6ffca/dataset-card.png?t=2017-12-10-18-00-59",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 48
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 48
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 301073
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 301073
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 2167650
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 2167650
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 5901
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 5901
     }
   ],
   "@id": "https://www.kaggle.com/datasnaek/youtube-new",

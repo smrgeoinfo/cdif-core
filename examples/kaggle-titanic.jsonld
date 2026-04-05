@@ -38,7 +38,7 @@
         ],
         "schema:name": "Syed Hamza Ali",
         "schema:url": "https://www.kaggle.com/hesh97",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1535108-kg.jpg"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1535108-kg.jpg"
       }
     ]
   },
@@ -47,7 +47,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -56,40 +56,40 @@
       "schema:contentSize": "22544 bytes"
     }
   ],
-  "commentCount": 0,
+  "schema:commentCount": 0,
   "schema:dateModified": "2018-02-02T04:51:06.95Z",
-  "discussionUrl": "https://www.kaggle.com/hesh97/titanicdataset-traincsv/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/hesh97/titanicdataset-traincsv/discussion",
   "schema:alternateName": "",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-77.png-1535108/dataset-card.png",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 0
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 0
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 117238
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 117238
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 398262
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 398262
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 595
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 595
     }
   ],
   "@id": "https://www.kaggle.com/hesh97/titanicdataset-traincsv",

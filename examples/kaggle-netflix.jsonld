@@ -44,7 +44,7 @@
         ],
         "schema:name": "Shivam Bansal",
         "schema:url": "https://www.kaggle.com/shivamb",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1571785-kg.jpeg"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1571785-kg.jpeg"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -62,40 +62,40 @@
       "schema:contentSize": "1400865 bytes"
     }
   ],
-  "commentCount": 88,
+  "schema:commentCount": 88,
   "schema:dateModified": "2021-09-27T04:44:36.77Z",
-  "discussionUrl": "https://www.kaggle.com/shivamb/netflix-shows/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/shivamb/netflix-shows/discussion",
   "schema:alternateName": "Listings of movies and tv shows on Netflix - Regularly Updated",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/434238/824878/30c0ef57882454a0419a348088aa2306/dataset-card.jpg?t=2019-12-04-06-00-44",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 88
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 88
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 739044
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 739044
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 3917842
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 3917842
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 9797
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 9797
     }
   ],
   "@id": "https://www.kaggle.com/shivamb/netflix-shows",

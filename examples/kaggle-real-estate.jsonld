@@ -45,7 +45,7 @@
         ],
         "schema:name": "Ahmed Shahriar Sakib",
         "schema:url": "https://www.kaggle.com/ahmedshahriarsakib",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/4124088-kg.png"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/4124088-kg.png"
       }
     ]
   },
@@ -54,7 +54,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -63,40 +63,40 @@
       "schema:contentSize": "40085115 bytes"
     }
   ],
-  "commentCount": 13,
+  "schema:commentCount": 13,
   "schema:dateModified": "2024-03-30T12:04:31.54Z",
-  "discussionUrl": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset/discussion",
   "schema:alternateName": "Real Estate listings (2.2M+) in the US broken by State and zip code",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/3202774/5562446/234b5e3bb3cd7ad85f432a9a16012376/dataset-card.jpeg?t=2023-04-30-04-35-26",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 13
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 13
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 38855
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 38855
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 314276
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 314276
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 250
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 250
     }
   ],
   "@id": "https://www.kaggle.com/ahmedshahriarsakib/usa-real-estate-dataset",

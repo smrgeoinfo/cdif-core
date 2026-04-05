@@ -44,7 +44,7 @@
         ],
         "schema:name": "Gabriel Preda",
         "schema:url": "https://www.kaggle.com/gpreda",
-        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/769452-kg.jpg"
+        "schema:image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/769452-kg.jpg"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "@type": [
         "schema:DataDownload"
       ],
-      "requiresSubscription": true,
+      "schema:requiresSubscription": true,
       "schema:encodingFormat": [
         "zip"
       ],
@@ -62,40 +62,40 @@
       "schema:contentSize": "2034736 bytes"
     }
   ],
-  "commentCount": 40,
+  "schema:commentCount": 40,
   "schema:dateModified": "2022-03-31T07:55:09.033Z",
-  "discussionUrl": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress/discussion",
+  "schema:discussionUrl": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress/discussion",
   "schema:alternateName": "Daily and Total Vaccination for COVID-19 in the World from Our World in Data",
   "schema:isAccessibleForFree": true,
   "schema:thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/1093816/1839732/2e3c2d0baa290d07c4439524bf15243a/dataset-card.jpg?t=2021-01-12-17-05-23",
-  "interactionStatistic": [
+  "schema:interactionStatistic": [
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/CommentAction",
-      "userInteractionCount": 40
+      "schema:interactionType": "http://schema.org/CommentAction",
+      "schema:userInteractionCount": 40
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/DownloadAction",
-      "userInteractionCount": 115634
+      "schema:interactionType": "http://schema.org/DownloadAction",
+      "schema:userInteractionCount": 115634
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/ViewAction",
-      "userInteractionCount": 615425
+      "schema:interactionType": "http://schema.org/ViewAction",
+      "schema:userInteractionCount": 615425
     },
     {
       "@type": [
-        "InteractionCounter"
+        "schema:InteractionCounter"
       ],
-      "interactionType": "http://schema.org/LikeAction",
-      "userInteractionCount": 2237
+      "schema:interactionType": "http://schema.org/LikeAction",
+      "schema:userInteractionCount": 2237
     }
   ],
   "@id": "https://www.kaggle.com/gpreda/covid-world-vaccination-progress",
